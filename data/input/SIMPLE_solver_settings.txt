@@ -1,0 +1,10 @@
+max_iter= 1000		#max number of SIMPLE iterations
+tolerance= 1e-10	#non-linear iterations tolerance
+gradient= GG		#gradient function, avaliable: GG (Green-Gauss gradient), LS (Least Squares gradient)
+mu= 2.			#dynamic viscosity
+rho= 1000.		#density
+
+is_print= .TRUE.	#is print
+print_iter= 1		#iterations for print convergence history
+is_log= .TRUE.		#is log
+log_iter= 1		#iterations for log convergence history

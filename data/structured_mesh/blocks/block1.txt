@@ -1,0 +1,15 @@
+#Dimension:{
+51 21
+}
+
+#Bias:{
+tanh tanh
+2. 2.
+}
+
+#Edges:{
+edges\bottom.txt
+edges\top.txt
+edges\left.txt
+edges\right.txt
+}

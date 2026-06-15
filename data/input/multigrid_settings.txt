@@ -1,0 +1,8 @@
+target_size = 4					#target size of agglomerators / coarsening coefficient
+nlevels = 3					#number of mg levels
+nu1 = 1						#number of presmothings
+nu2 = 2						#number of postsmoothings 
+max_iter = 2					#number of iterations on coarest level
+omega = 1.0					#relaxation factor
+output_mesh = .TRUE. 				#output coarse mesh flag 
+p_order = 1					#order of prolongation operator

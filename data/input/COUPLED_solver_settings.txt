@@ -1,0 +1,29 @@
+NITER = 550			#max number of iterations
+TOLERANCE = 1e-8		#non-linear iterations tolerance
+CFL = 5.0			#Couran number
+
+GRADIENT = GG			#gradient function type, avaliable: GG (Green-Gauss gradient), LS (Least Squares gradient)
+
+MODEL = 1			#physical model: 1 - EULER | 2 - NAVIER-STOKES
+SCHEME = 1			#solver scheme: 0 - CLASSICAL EXPLICIT | 1 - CLASSICAL IMPLICIT | 2 - JACOBIAN FREE | 3 - ALGHORITHMIC DIFFERENTATION | 4 - BlockLUSGS |
+ORDER = 1			#approximation order: 1 - FIRST ORDER | 2 - SECOND ORDER MUSCL+TVD | 3 - THIERD ORDER WENO3
+LIMITER = 1			#tvd limiter: 1 - MINMOD | 2 - VAN LEER | 3 - VAN ALBADA | 4 - SUPERBEE | 5 - UNKNOWN
+
+REIMAN_SOLVER_TYPE = 2		#reiman solver type: 1 - HLL | 2 - HLLC | 3 - ROE | 4 - AUSM | 5 - AUSM+
+STABILITY_OPERATOR_TYPE = 2	#stability operator type: 1 - HLL | 2 - HLLC | 3 - ROE | 4 - AUSM | 5 - AUSM+
+
+FOS_NITER = 0			#fos number of iterations
+FOS_CFL = 1.0			#fos Courant number
+
+INITIALIZATION_TYPE = 1		#initialization type: 1 - uniform | 2 - from file .vtk | 3 - from file .dat | 4 - multigrid initialization
+SAVE_NITER = 100000		#number of iteration for solution save
+MAS_NITER = 1			#matrix assembling iteration step
+PAS_NITER = 20			#preconditioner assembling iteration step
+
+IS_PRINT = .TRUE.		#is print
+PRINT_NITER = 1			#iterations for print convergence history
+IS_LOG = .TRUE.			#is log
+LOG_NITER = 1			#iterations for log convergence history
+
+USE_GHOST_CELLS = .FLASE. 	#flag for using ghost cells
+USE_CONSERVATIVE_VARS = .FALSE.	#flag for using conservative variables as main variables

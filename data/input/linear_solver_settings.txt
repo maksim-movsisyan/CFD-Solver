@@ -1,0 +1,6 @@
+solver_type = BiCGSTAB				#solver type, avaliable: GMRES, BiCGSTAB, Jacobi
+max_iter = 100					#linear solver max number of iterations
+rel_tol = 1e-1					#relative tolerance
+abs_tol = 1e-6					#absolute tolerance
+verbosity = -1					#verbosity
+preconditioner_type = BCSR_ILU0			#preconditioning type, avaliable: NONE, BLOCK_JACOBI, BCSR_ILU0, CSR_ILU0, GMG

@@ -1,0 +1,3 @@
+Pr = 0.71			#Prandlt number
+k = 1.4				#Adiabatic coefficient
+R_gas = 287			#Gas constant

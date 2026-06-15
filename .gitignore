@@ -1,0 +1,28 @@
+# ============================================================
+# Build output: produced by CMake, fully regenerable, never tracked
+# ============================================================
+build/
+
+# ============================================================
+# run/ : the output folders (run/log, run/solution, run/monitors)
+#        are each kept by a small .gitignore inside them - see README
+# ============================================================
+
+# ============================================================
+# Compiler / Fortran artifacts (normally inside build/ - this is insurance)
+# ============================================================
+*.o
+*.a
+*.mod
+*.smod
+*.exe
+
+# ============================================================
+# Editor & OS clutter
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
