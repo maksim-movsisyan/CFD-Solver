@@ -1,4 +1,4 @@
-# CFDSolver
+# CFD-Solver
 
 A finite-volume solver for **compressible gas flows**, with a focus on **efficient implicit and matrix-free methods** on unstructured grids.
 
@@ -190,11 +190,12 @@ Full methodology, derivations, and results are documented in the accompanying th
 
 This code accompanies the bachelor's thesis *"Implementation and Testing of Efficient Implicit Methods for Compressible Gas Flow Calculations"* (M. A. Movsisyan, SPbPU, 2026). Selected references:
 
+- Kolesnik, E.V. Viscous-Inviscid Interaction in Three-Dimensional Flows with Horseshoe-Shaped Vortex Structures: Numerical Simulation. / E.V. Kolesnik. – St. Petersburg: SPbPU, 2021. – 193 p.
 - E. F. Toro, *Riemann Solvers and Numerical Methods for Fluid Dynamics*, Springer, 2009.
 - D. A. Knoll, D. E. Keyes, *Jacobian-Free Newton–Krylov methods: a survey of approaches and applications*, J. Comput. Phys. 193 (2004) 357–397.
 - Y. Saad, *Iterative Methods for Sparse Linear Systems*, SIAM, 2003.
 - F. Moukalled, L. Mangani, M. Darwish, *The Finite Volume Method in Computational Fluid Dynamics*, Springer, 2016.
-- TAPENADE algorithmic differentiation tool.
+- TAPENADE algorithmic differentiation tool (https://tapenade.gitlabpages.inria.fr/userdoc/build/html/tapenade/tutorial.html).
 
 ## License
 
