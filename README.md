@@ -200,7 +200,3 @@ This code accompanies the bachelor's thesis *"Implementation and Testing of Effi
 ## License
 
 Released under the **MIT License** — see [LICENSE](LICENSE). You are free to use, copy, modify, and distribute this code, including for commercial purposes; the only condition is that the copyright notice is preserved.
-
-## Author
-
-**M. A. Movsisyan** — Higher School of Applied Mathematics and Computational Physics, SPbPU. Thesis supervisor: **E. V. Kolesnik.**
